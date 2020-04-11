@@ -10,6 +10,8 @@ namespace Greet
     {
         static void Main(string[] args)
         {
+            ProgramUI start = new ProgramUI();
+            start.Run();
         }
     }
 }

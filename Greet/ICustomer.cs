@@ -8,5 +8,8 @@ namespace Greet
 {
     interface ICustomer
     {
+        string FirstName { get; set; }
+        string LastName { get; set; }
+        string Email { get; }
     }
 }
